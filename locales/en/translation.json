@@ -1,0 +1,205 @@
+{
+  "home": {
+    "nome": "Afonso Ferreira da Silva Junior",
+    "cargo": "Labor and Union Attorney",
+    "sobre": "About",
+    "resumo": "Attorney with 34 years of solid legal background, specialized in Labor, Civil, and Business Law.",
+    "resumo2": "Active since 1992 with a strategic focus on preventive legal advisory and litigation across all court levels.",
+    "especialidades": "Practice areas",
+    "especialidadesLista": [
+      "Labor Law (substantive and procedural)",
+      "Civil liability",
+      "Contracts",
+      "Corporate law",
+      "Judicial and administrative litigation"
+    ],
+    "destaques": "Key strengths",
+    "destaquesLista": [
+      "Preventive legal advisory for individuals and companies",
+      "Technical legal work with agility in administrative and judicial settings",
+      "Experience in negotiation, mediation, and legal opinions",
+      "Strategic legal drafting"
+    ],
+    "btnExperiencia": "View professional experience",
+    "btnTrabalhos": "View professional experience"
+  },
+  "header": {
+    "brand": "Afonso Ferreira",
+    "trabalhos": "Career",
+    "experiencia": "Experience",
+    "formacao": "Education",
+    "cursos": "Courses and languages",
+    "curriculo": "Resume",
+    "contato": "Contact"
+  },
+  "footer": {
+    "texto1": "Developed by Henrique Rotsen",
+    "texto2": "All rights reserved"
+  },
+  "experiencia": {
+    "titulo": "Professional experience",
+    "intro": "Continuous legal practice focused on Labor, Civil, and Business Law.",
+    "cargos": [
+      {
+        "cargo": "Senior Attorney and Partner",
+        "empresa": "Moura Tavares, Figueiredo, Moreira e Campos Advogados",
+        "periodo": "2016 - present"
+      },
+      {
+        "cargo": "Senior Attorney and Associate",
+        "empresa": "Ferreira e Chagas Advogados",
+        "periodo": "2014 - 2016"
+      },
+      {
+        "cargo": "Partner",
+        "empresa": "Ardizoni, Damaso, Gustin e Viana Advogados Associados",
+        "periodo": "2003 - 2006"
+      },
+      {
+        "cargo": "Associate Attorney",
+        "empresa": "Ardizoni, Damaso, Gustin e Viana Advogados Associados",
+        "periodo": "2000 - 2002"
+      },
+      {
+        "cargo": "Partner",
+        "empresa": "Silva, Linklater e Tribuzi Advogados Associados",
+        "periodo": "1995 - 1996"
+      }
+    ],
+    "trajetoriaInicialTitulo": "Early legal career",
+    "trajetoriaInicial": [
+      "Law Office of Dr. Juventino Gomes de Miranda Filho (1989 - 1991)",
+      "Law Office of Dr. Demetrio Joao Miguel (1988 - 1989)"
+    ],
+    "outrosSetoresTitulo": "Experience in other sectors",
+    "outrosSetores": [
+      "FIAT Automoveis S/A - Trainee in Organization and Human Resources (1992)",
+      "ECOPLAN - Engineering, Consulting and Planning Ltda. - Calculator, Drafter and Designer (1986 - 1987)",
+      "Ginga Gym and Capoeira Ltda. - Partner, Instructor and Coordinator (1982 - 1986)"
+    ]
+  },
+  "formacao": {
+    "titulo": "Academic education",
+    "intro": "Strong academic foundation with postgraduate studies in Labor Law and Business Law.",
+    "academicaTitulo": "Main education",
+    "academica": [
+      {
+        "curso": "Postgraduate - Substantive and Procedural Labor Law",
+        "instituicao": "Institute of Continuing Education (IEC PUC Minas)"
+      },
+      {
+        "curso": "Postgraduate - Business Law",
+        "instituicao": "Pontifical Catholic University of Minas Gerais"
+      },
+      {
+        "curso": "Bachelor in Law",
+        "instituicao": "Pitagoras College"
+      }
+    ],
+    "complementarTitulo": "Additional education",
+    "complementar": [
+      "Technical course in Accounting, Organization and Method - Colegio Brasileiro de Belo Horizonte",
+      "Typing course - Sistema de Ensino Galesta"
+    ]
+  },
+  "cursos": {
+    "titulo": "Courses",
+    "intro": "Ongoing technical development in legal practice, management, and innovation.",
+    "categorias": [
+      {
+        "titulo": "Labor Law and Labor Procedure",
+        "itens": [
+          "5th Brazilian Congress on Labor Practices (2026)",
+          "TST 2025: Mastering Labor Case Law",
+          "Successful Advocacy in Courts - Trabalho Notavel",
+          "Hearing 4.0 - Online Course",
+          "Labor Compliance, Digital Evidence and LGPD - EMD",
+          "XXXVI CONAT - National Congress of Labor Attorneys",
+          "Substantive and Procedural Labor Law Course - PROLABORE"
+        ]
+      },
+      {
+        "titulo": "Innovation, technology, and management",
+        "itens": [
+          "AI in Practice - Metodo Juris / Instituto Panamericano",
+          "The Leadership Map in Legal Practice - Lara Selem Consultoria",
+          "IT Applied to Law - Zargon Computacao"
+        ]
+      },
+      {
+        "titulo": "Civil Law and Civil Procedure",
+        "itens": [
+          "Course on the New Civil Procedure Code Bill - DPC Cursos Juridicos",
+          "Brazilian Congress of Civil Procedural Law - OAB/MG",
+          "Lopes da Costa Seminar on Civil Procedure - PUCMG",
+          "Civil Procedure Study Cycle - Escola de Advocacia (OAB/MG)",
+          "Debate on CPC Reform - Escola de Advocacia (OAB/MG)",
+          "Seminar on Civil Liability - Escola de Advocacia (OAB/MG)"
+        ]
+      },
+      {
+        "titulo": "Humanistic education and extension",
+        "itens": [
+          "Humanistic Education Course (Sociology, Psychology, Philosophy and Ethics) - LFG",
+          "III Legal Forum: The New Order - Controversial Aspects - Fundacao Dom Cabral",
+          "Symposium on the Federal Constitution - IAMG",
+          "Symposium on the New Federal Constitution and the Minas Constituent Process - ALMG / Fundacao Joao Pinheiro",
+          "Latin Language Course - Faculdade Mineira de Direito (PUCMG)"
+        ]
+      }
+    ],
+    "idiomasTitulo": "Languages",
+    "idiomasLista": [
+      "Portuguese - Fluent",
+      "Italian - Advanced",
+      "English - Basic"
+    ],
+    "afiliacoesTitulo": "Affiliations and institutional activity",
+    "afiliacoesLista": [
+      "AMAT - Association of Labor Attorneys of Minas Gerais",
+      "GEMT - Study Group of Labor Magistracy - Full member since 2019",
+      "Member of GEMT (2010 - 2014)"
+    ]
+  },
+  "curriculo": {
+    "nome": "Afonso Ferreira da Silva Junior",
+    "subtitulo": "Curriculum Vitae",
+    "titulo": "Resume models",
+    "cv": "Curriculum Vitae",
+    "baixar": "Download",
+    "idiomaPt": "Portuguese (PT-BR)",
+    "idiomaEn": "English (EN)",
+    "idiomaIt": "Italian (IT)"
+  },
+  "contato": {
+    "titulo": "Contact",
+    "dados": [
+      {
+        "label": "Phone",
+        "value": "+55 (31) 98811-9092"
+      },
+      {
+        "label": "Email",
+        "value": "afsjr1960@gmail.com.br"
+      },
+      {
+        "label": "Bar Association ID",
+        "value": "OAB/MG 57.178"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "afonso-junior-98646b182",
+        "link": "https://www.linkedin.com/in/afonso-junior-98646b182/"
+      }
+    ],
+    "placeholderNome": "Enter your name",
+    "placeholderEmail": "Enter your email",
+    "placeholderMensagem": "Enter your message",
+    "botao": "Send",
+    "erroNome": "Please enter your name.",
+    "erroEmail": "Please enter your email.",
+    "erroMensagem": "Please enter your message.",
+    "emailSucesso": "Message sent successfully!",
+    "emailErro": "Failed to send message. Error:"
+  }
+}

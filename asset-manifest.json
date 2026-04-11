@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a249bbe3.css",
+    "main.js": "./static/js/main.83a7ff2e.js",
+    "static/js/38.7b51576d.chunk.js": "./static/js/38.7b51576d.chunk.js",
+    "static/media/Banner Afonso.png": "./static/media/Banner Afonso.c0b6a78d847a1c9e2d9b.png",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.2e29088ecbeb123ad89b.pdf",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-English.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-English.3c87d995f7b31c14b0fb.pdf",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.14676aa76a9faa5061f6.pdf",
+    "static/media/Afonso-Ferreira.png": "./static/media/Afonso-Ferreira.e5230f3829bf0100ac27.png",
+    "static/media/Logo Branca.png": "./static/media/Logo Branca.a9594c9a3983e769bab8.png",
+    "index.html": "./index.html",
+    "main.a249bbe3.css.map": "./static/css/main.a249bbe3.css.map",
+    "main.83a7ff2e.js.map": "./static/js/main.83a7ff2e.js.map",
+    "38.7b51576d.chunk.js.map": "./static/js/38.7b51576d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a249bbe3.css",
+    "static/js/main.83a7ff2e.js"
+  ]
+}
