@@ -1,6 +1,6 @@
 # SiteAfonso
 
-Site profissional de Afonso Ferreira da Silva Júnior, com conteúdo bilíngue (PT/EN) baseado no currículo.
+Site profissional de Afonso Ferreira da Silva Júnior, com conteúdo trilíngue (PT/EN/IT).
 
 ## Rodando localmente
 
