@@ -1,0 +1,68 @@
+.main {
+    flex-wrap: wrap;
+    background-color: #766b65;
+    padding: 100px;
+}
+
+.main h2 {
+    color: #00303d;
+    font-size: 2rem;
+}
+
+.main-box {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../components/images/Banner Afonso.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.files {
+    column-count: 3;
+}
+
+.item-resume {
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.item-resume h3 {
+    color: #00303d;
+    margin: 10;
+    line-height: 1.05;
+}
+
+.item-resume p {
+    color: #00303d;
+    margin: 0;
+}
+
+.item-resume .btn {
+    min-width: 160px;
+    padding: 8px 22px;
+}
+
+.item-resume .btn:hover {
+    border-color: #ffffff;
+}
+
+@media screen and (max-width: 960px) {
+    .files {
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+    }
+
+    .item-resume {
+        align-self: self-start;
+        justify-content: left;
+    }
+}
+

@@ -1,0 +1,205 @@
+{
+  "home": {
+    "nome": "Afonso Ferreira da Silva Júnior",
+    "cargo": "Advogado Trabalhista e Sindical",
+    "sobre": "Sobre",
+    "resumo": "Advogado com 34 anos de sólida trajetória jurídica, especializado nas áreas Trabalhista, Civil e Empresarial.",
+    "resumo2": "Atua desde 1992 com foco estratégico em consultoria preventiva e advocacia contenciosa em todas as instâncias.",
+    "especialidades": "Áreas de atuação",
+    "especialidadesLista": [
+      "Direito do Trabalho (material e processual)",
+      "Responsabilidade civil",
+      "Contratos",
+      "Direito societário",
+      "Contencioso judicial e administrativo"
+    ],
+    "destaques": "Diferenciais",
+    "destaquesLista": [
+      "Consultoria preventiva para pessoas físicas e jurídicas",
+      "Atuação técnica com agilidade em cenários administrativos e judiciais",
+      "Experiência em negociação, mediação e pareceres",
+      "Redação jurídica estratégica"
+    ],
+    "btnExperiencia": "Ver experiência profissional",
+    "btnTrabalhos": "Ver experiência profissional"
+  },
+  "header": {
+    "brand": "Afonso Ferreira",
+    "trabalhos": "Trajetória",
+    "experiencia": "Experiência",
+    "formacao": "Formação",
+    "cursos": "Cursos e idiomas",
+    "curriculo": "Currículo",
+    "contato": "Contato"
+  },
+  "footer": {
+    "texto1": "Desenvolvido por Henrique Rotsen",
+    "texto2": "Todos os direitos reservados"
+  },
+  "experiencia": {
+    "titulo": "Experiência profissional",
+    "intro": "Atuação contínua na advocacia com foco em Direito Trabalhista, Civil e Empresarial.",
+    "cargos": [
+      {
+        "cargo": "Advogado Sênior e Sócio",
+        "empresa": "Moura Tavares, Figueiredo, Moreira e Campos Advogados",
+        "periodo": "2016 - atual"
+      },
+      {
+        "cargo": "Advogado Sênior e Associado",
+        "empresa": "Ferreira e Chagas Advogados",
+        "periodo": "2014 - 2016"
+      },
+      {
+        "cargo": "Sócio",
+        "empresa": "Ardizoni, Dâmaso, Gustin e Viana Advogados Associados",
+        "periodo": "2003 - 2006"
+      },
+      {
+        "cargo": "Advogado Associado",
+        "empresa": "Ardizoni, Dâmaso, Gustin e Viana Advogados Associados",
+        "periodo": "2000 - 2002"
+      },
+      {
+        "cargo": "Sócio",
+        "empresa": "Silva, Linklater e Tribuzi Advogados Associados",
+        "periodo": "1995 - 1996"
+      }
+    ],
+    "trajetoriaInicialTitulo": "Trajetória jurídica inicial",
+    "trajetoriaInicial": [
+      "Escritório de Advocacia Dr. Juventino Gomes de Miranda Filho (1989 - 1991)",
+      "Escritório de Advocacia Dr. Demétrio João Miguel (1988 - 1989)"
+    ],
+    "outrosSetoresTitulo": "Experiências em outros setores",
+    "outrosSetores": [
+      "FIAT Automóveis S/A - Trainee em Organização e Recursos Humanos (1992)",
+      "ECOPLAN - Engenharia, Consultoria e Planejamento Ltda. - Calculista, Desenhista e Projetista (1986 - 1987)",
+      "Ginga Academia de Ginástica e Capoeira Ltda. - Sócio, Professor e Coordenador (1982 - 1986)"
+    ]
+  },
+  "formacao": {
+    "titulo": "Formação acadêmica",
+    "intro": "Base acadêmica sólida com especializações em Direito do Trabalho e Direito de Empresa.",
+    "academicaTitulo": "Formação principal",
+    "academica": [
+      {
+        "curso": "Pós-graduação - Direito Material e Processual do Trabalho",
+        "instituicao": "Instituto de Educação Continuada (IEC PUC Minas)"
+      },
+      {
+        "curso": "Pós-graduação - Direito de Empresa",
+        "instituicao": "Pontifícia Universidade Católica de Minas Gerais"
+      },
+      {
+        "curso": "Graduação - Direito",
+        "instituicao": "Faculdade Pitágoras"
+      }
+    ],
+    "complementarTitulo": "Outras formações",
+    "complementar": [
+      "Curso Técnico de Contabilidade, Organização e Método - Colégio Brasileiro de Belo Horizonte",
+      "Curso de Datilografia - Sistema de Ensino Galesta"
+    ]
+  },
+  "cursos": {
+    "titulo": "Cursos",
+    "intro": "Atualização técnica permanente em temas de advocacia, gestão e inovação.",
+    "categorias": [
+      {
+        "titulo": "Direito do Trabalho e Processo do Trabalho",
+        "itens": [
+          "5º Congresso Brasileiro de Práticas Trabalhistas (2026)",
+          "TST 2025: Dominando a Jurisprudência Trabalhista",
+          "Advocacia de Sucesso nos Tribunais - Trabalho Notável",
+          "Audiência 4.0 - Curso Online",
+          "Compliance Trabalhista, Provas Digitais e LGPD - EMD",
+          "XXXVI CONAT - Congresso Nacional dos Advogados Trabalhistas",
+          "Curso de Direito Material e Processual Trabalhista - PROLABORE"
+        ]
+      },
+      {
+        "titulo": "Inovação, tecnologia e gestão",
+        "itens": [
+          "IA na Prática - Método Juris / Instituto Panamericano",
+          "O Mapa da Liderança na Advocacia - Lara Selem Consultoria",
+          "Curso de Informática Aplicada ao Direito - Zargon Computação"
+        ]
+      },
+      {
+        "titulo": "Direito Civil e Processual Civil",
+        "itens": [
+          "Curso sobre o Projeto do Novo Código de Processo Civil - DPC Cursos Jurídicos",
+          "Congresso Brasileiro de Direito Processual Civil - OAB/MG",
+          "Seminário Lopes da Costa de Direito Processual Civil - PUCMG",
+          "Ciclo de Estudos de Processo Civil - Escola de Advocacia (OAB/MG)",
+          "Debate sobre a Reforma do CPC - Escola de Advocacia (OAB/MG)",
+          "Seminário sobre Responsabilidade Civil - Escola de Advocacia (OAB/MG)"
+        ]
+      },
+      {
+        "titulo": "Formação humanística e extensão",
+        "itens": [
+          "Curso de Formação Humanística (Sociologia, Psicologia, Filosofia e Ética) - LFG",
+          "III Fórum Jurídico: A Nova Ordem - Aspectos Polêmicos - Fundação Dom Cabral",
+          "Simpósio sobre a Constituição Federal - IAMG",
+          "Simpósio A Nova Constituição Federal e o Processo Constituinte Mineiro - ALMG / Fundação João Pinheiro",
+          "Curso de Língua Latina - Faculdade Mineira de Direito (PUCMG)"
+        ]
+      }
+    ],
+    "idiomasTitulo": "Idiomas",
+    "idiomasLista": [
+      "Português - Fluente",
+      "Italiano - Avançado",
+      "Inglês - Básico"
+    ],
+    "afiliacoesTitulo": "Afiliações e atuações institucionais",
+    "afiliacoesLista": [
+      "AMAT - Associação Mineira dos Advogados Trabalhistas",
+      "GEMT - Grupo de Estudos da Magistratura do Trabalho - Membro efetivo desde 2019",
+      "Integrante do GEMT (2010 - 2014)"
+    ]
+  },
+  "curriculo": {
+    "nome": "Afonso Ferreira da Silva Júnior",
+    "subtitulo": "Curriculum Vitae",
+    "titulo": "Modelos de currículo",
+    "cv": "Curriculum Vitae",
+    "baixar": "Baixar",
+    "idiomaPt": "Português (PT-BR)",
+    "idiomaEn": "Inglês (EN)", 
+    "idiomaIt": "Italiano (IT)"
+  },
+  "contato": {
+    "titulo": "Contato",
+    "dados": [
+      {
+        "label": "Telefone",
+        "value": "(31) 98811-9092"
+      },
+      {
+        "label": "Email",
+        "value": "afsjr1960@gmail.com.br"
+      },
+      {
+        "label": "OAB/MG",
+        "value": "57.178"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "afonso-junior-98646b182",
+        "link": "https://www.linkedin.com/in/afonso-junior-98646b182/"
+      }
+    ],
+    "placeholderNome": "Digite seu nome",
+    "placeholderEmail": "Digite seu email",
+    "placeholderMensagem": "Digite sua mensagem",
+    "botao": "Enviar",
+    "erroNome": "Por favor, preencha o seu nome.",
+    "erroEmail": "Por favor, preencha o seu email.",
+    "erroMensagem": "Por favor, preencha a sua mensagem.",
+    "emailSucesso": "Mensagem enviada com sucesso!",
+    "emailErro": "Falha ao enviar a mensagem. Erro:"
+  }
+}

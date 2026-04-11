@@ -1,0 +1,132 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 48, 61, 0.75), rgba(0, 48, 61, 0.75)), url('../components/images/Banner Afonso.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;    
+}
+
+.info-container-1 {
+    padding: 50px;
+    align-content: center;
+    align-self: flex-start;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    animation: fadeInUp 0.5s ease both;
+}
+
+.info-container-2 {
+    padding: 50px;
+    align-content: center;
+    margin-left: auto;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    animation: fadeInUp 0.5s ease both;
+}
+
+.info-container-1:hover,
+.info-container-2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.main-title {
+    color: #ffffff;
+    margin: 0;
+    animation: fadeInUp 0.5s ease both;
+}
+
+.work-title {
+    margin: 10px;
+}
+
+.divider {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #766b65;
+    border-width: 2px;
+    opacity: 60%;
+}
+
+.vertical{
+    list-style: none;
+    column-count: 1;
+    padding: 10px;    
+}
+
+.vertical li{
+    margin-top: 10px;  
+}
+
+.nested-list {
+    margin-top: 6px;
+    padding-left: 18px;
+}
+
+.nested-list li {
+    margin-top: 6px;
+}
+
+
+.work p{
+    margin-left: 10px;
+}
+
+.muted {
+    color: #766b65;
+}
+
+a{
+    color: #766b65;
+    text-decoration: none;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .works {
+        padding: 25px;
+        background-color: #00303d;
+    }
+
+    .work {
+        flex-direction: column;
+    }
+
+    .info-container-1 {
+        padding: 25px;
+        align-content: center;
+        margin-left: auto;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+    
+    .info-container-2 {
+        padding: 25px;
+        align-content: center;
+        margin-left: auto;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+}

@@ -1,0 +1,205 @@
+{
+  "home": {
+    "nome": "Afonso Ferreira da Silva Junior",
+    "cargo": "Avvocato del lavoro e sindacale",
+    "sobre": "SU DI ME",
+    "resumo": "Avvocato con 34 anni di solida esperienza giuridica, specializzato in diritto del lavoro, civile e societario.",
+    "resumo2": "Opera dal 1992 con focus strategico sulla consulenza preventiva e sul contenzioso in tutte le istanze.",
+    "especialidades": "Aree di attivita",
+    "especialidadesLista": [
+      "Diritto del lavoro (sostanziale e processuale)",
+      "Responsabilita civile",
+      "Contratti",
+      "Diritto societario",
+      "Contenzioso giudiziale e amministrativo"
+    ],
+    "destaques": "Punti di forza",
+    "destaquesLista": [
+      "Consulenza preventiva per persone fisiche e giuridiche",
+      "Attivita tecnica con agilita in contesti amministrativi e giudiziari",
+      "Esperienza in negoziazione, mediazione e pareri legali",
+      "Redazione giuridica strategica"
+    ],
+    "btnExperiencia": "Vedi esperienza professionale",
+    "btnTrabalhos": "Vedi esperienza professionale"
+  },
+  "header": {
+    "brand": "Afonso Ferreira",
+    "trabalhos": "Percorso",
+    "experiencia": "Esperienza",
+    "formacao": "Formazione",
+    "cursos": "Corsi e lingue",
+    "curriculo": "Curriculum",
+    "contato": "Contatto"
+  },
+  "footer": {
+    "texto1": "Sviluppato da Henrique Rotsen",
+    "texto2": "Tutti i diritti riservati"
+  },
+  "experiencia": {
+    "titulo": "Esperienza professionale",
+    "intro": "Attivita continuativa nell'avvocatura con focus su diritto del lavoro, civile e societario.",
+    "cargos": [
+      {
+        "cargo": "Avvocato senior e socio",
+        "empresa": "Moura Tavares, Figueiredo, Moreira e Campos Advogados",
+        "periodo": "2016 - oggi"
+      },
+      {
+        "cargo": "Avvocato senior e associato",
+        "empresa": "Ferreira e Chagas Advogados",
+        "periodo": "2014 - 2016"
+      },
+      {
+        "cargo": "Socio",
+        "empresa": "Ardizoni, Damaso, Gustin e Viana Advogados Associados",
+        "periodo": "2003 - 2006"
+      },
+      {
+        "cargo": "Avvocato associato",
+        "empresa": "Ardizoni, Damaso, Gustin e Viana Advogados Associados",
+        "periodo": "2000 - 2002"
+      },
+      {
+        "cargo": "Socio",
+        "empresa": "Silva, Linklater e Tribuzi Advogados Associados",
+        "periodo": "1995 - 1996"
+      }
+    ],
+    "trajetoriaInicialTitulo": "Inizio della carriera legale",
+    "trajetoriaInicial": [
+      "Studio legale Dr. Juventino Gomes de Miranda Filho (1989 - 1991)",
+      "Studio legale Dr. Demetrio Joao Miguel (1988 - 1989)"
+    ],
+    "outrosSetoresTitulo": "Esperienze in altri settori",
+    "outrosSetores": [
+      "FIAT Automoveis S/A - Trainee in Organizzazione e Risorse Umane (1992)",
+      "ECOPLAN - Engineering, Consulting and Planning Ltda. - Calcolista, disegnatore e progettista (1986 - 1987)",
+      "Ginga Academia de Ginastica e Capoeira Ltda. - Socio, insegnante e coordinatore (1982 - 1986)"
+    ]
+  },
+  "formacao": {
+    "titulo": "Formazione accademica",
+    "intro": "Solida base accademica con specializzazioni in diritto del lavoro e diritto d'impresa.",
+    "academicaTitulo": "Formazione principale",
+    "academica": [
+      {
+        "curso": "Master - Diritto del lavoro sostanziale e processuale",
+        "instituicao": "Instituto de Educacao Continuada (IEC PUC Minas)"
+      },
+      {
+        "curso": "Master - Diritto d'impresa",
+        "instituicao": "Pontificia Universita Cattolica di Minas Gerais"
+      },
+      {
+        "curso": "Laurea in Giurisprudenza",
+        "instituicao": "Faculdade Pitagoras"
+      }
+    ],
+    "complementarTitulo": "Altre formazioni",
+    "complementar": [
+      "Corso tecnico di contabilita, organizzazione e metodo - Colegio Brasileiro de Belo Horizonte",
+      "Corso di dattilografia - Sistema de Ensino Galesta"
+    ]
+  },
+  "cursos": {
+    "titulo": "Corsi",
+    "intro": "Aggiornamento tecnico continuo su temi di avvocatura, gestione e innovazione.",
+    "categorias": [
+      {
+        "titulo": "Diritto del lavoro e processo del lavoro",
+        "itens": [
+          "5 Congresso Brasiliano di Pratiche Lavoristiche (2026)",
+          "TST 2025: Padronanza della giurisprudenza lavoristica",
+          "Avvocatura di successo nei tribunali - Trabalho Notavel",
+          "Udienza 4.0 - Corso online",
+          "Compliance del lavoro, prove digitali e LGPD - EMD",
+          "XXXVI CONAT - Congresso nazionale degli avvocati del lavoro",
+          "Corso di diritto del lavoro sostanziale e processuale - PROLABORE"
+        ]
+      },
+      {
+        "titulo": "Innovazione, tecnologia e gestione",
+        "itens": [
+          "IA nella pratica - Metodo Juris / Instituto Panamericano",
+          "La mappa della leadership nell'avvocatura - Lara Selem Consultoria",
+          "Informatica applicata al diritto - Zargon Computacao"
+        ]
+      },
+      {
+        "titulo": "Diritto civile e procedura civile",
+        "itens": [
+          "Corso sul progetto del nuovo codice di procedura civile - DPC Cursos Juridicos",
+          "Congresso brasiliano di diritto processuale civile - OAB/MG",
+          "Seminario Lopes da Costa di procedura civile - PUCMG",
+          "Ciclo di studi di procedura civile - Escola de Advocacia (OAB/MG)",
+          "Dibattito sulla riforma del CPC - Escola de Advocacia (OAB/MG)",
+          "Seminario sulla responsabilita civile - Escola de Advocacia (OAB/MG)"
+        ]
+      },
+      {
+        "titulo": "Formazione umanistica ed estensione",
+        "itens": [
+          "Corso di formazione umanistica (sociologia, psicologia, filosofia ed etica) - LFG",
+          "III Forum Giuridico: Il Nuovo Ordine - Aspetti controversi - Fundacao Dom Cabral",
+          "Simposio sulla Costituzione Federale - IAMG",
+          "Simposio sulla nuova Costituzione Federale e il processo costituente di Minas - ALMG / Fundacao Joao Pinheiro",
+          "Corso di lingua latina - Faculdade Mineira de Direito (PUCMG)"
+        ]
+      }
+    ],
+    "idiomasTitulo": "Lingue",
+    "idiomasLista": [
+      "Portoghese - Fluente",
+      "Italiano - Avanzato",
+      "Inglese - Base"
+    ],
+    "afiliacoesTitulo": "Affiliazioni e attivita istituzionali",
+    "afiliacoesLista": [
+      "AMAT - Associazione degli avvocati del lavoro di Minas Gerais",
+      "GEMT - Gruppo di studi della magistratura del lavoro - Membro effettivo dal 2019",
+      "Membro del GEMT (2010 - 2014)"
+    ]
+  },
+  "curriculo": {
+    "nome": "Afonso Ferreira da Silva Junior",
+    "subtitulo": "Curriculum Vitae",
+    "titulo": "Modeli di curriculum",
+    "cv": "Curriculum Vitae",
+    "baixar": "Scarica",
+    "idiomaPt": "Portoghese (PT-BR)",
+    "idiomaEn": "Inglese (EN)",
+    "idiomaIt": "Italiano (IT)"
+  },
+  "contato": {
+    "titulo": "Contatto",
+    "dados": [
+      {
+        "label": "Telefono",
+        "value": "+55 (31) 98811-9092"
+      },
+      {
+        "label": "Email",
+        "value": "afsjr1960@gmail.com.br"
+      },
+      {
+        "label": "Ordine professionale",
+        "value": "OAB/MG 57.178"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "afonso-junior-98646b182",
+        "link": "https://www.linkedin.com/in/afonso-junior-98646b182/"
+      }
+    ],
+    "placeholderNome": "Inserisci il tuo nome",
+    "placeholderEmail": "Inserisci la tua email",
+    "placeholderMensagem": "Inserisci il tuo messaggio",
+    "botao": "Invia",
+    "erroNome": "Per favore, inserisci il tuo nome.",
+    "erroEmail": "Per favore, inserisci la tua email.",
+    "erroMensagem": "Per favore, inserisci il tuo messaggio.",
+    "emailSucesso": "Messaggio inviato con successo!",
+    "emailErro": "Invio del messaggio non riuscito. Errore:"
+  }
+}

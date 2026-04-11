@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --color-contrast: #00303d;
+    --color-primary: #ffffff;
+    --color-secondary: #766b65;
+  }
+
+  body {
+    background: var(--color-primary);
+    color: var(--color-contrast);
+  }
+  
+  .home,
+  .trabalhos,
+  .curriculo,
+  .contato {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trabalhos {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .curriculo {
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .contato {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
