@@ -6,11 +6,20 @@ import DownloadButton from '../components/DownloadButton.js';
 import ResumeEnglish from '../components/files/Curriculum_Vitae_Afonso_Ferreira-English.pdf';
 import ResumePortuguese from '../components/files/Curriculum_Vitae_Afonso_Ferreira-Portugues.pdf';
 import ResumeItalian from '../components/files/Curriculum_Vitae_Afonso_Ferreira-Italiano.pdf';
-import Logo from '../components/images/Logo Branca.png';
+import logoPt from '../components/images/Logo Branca.png';
+import logoEn from '../components/images/Logo Branca – Ingles.png';
+import logoIt from '../components/images/Logo Branca – Italiano.png';
 
 export const Curriculo = () => {
   const [showLogo, setShowLogo] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = (i18n.resolvedLanguage || i18n.language || 'pt').split('-')[0];
+  const logoByLanguage = {
+    pt: logoPt,
+    en: logoEn,
+    it: logoIt
+  };
+  const currentLogo = logoByLanguage[currentLanguage] || logoPt;
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,7 +32,7 @@ export const Curriculo = () => {
   return (
     <>
       <div className='main-box'>
-        <img src={Logo} alt='Logo' className={`logo-main-box ${showLogo ? 'show' : ''}`} />
+        <img src={currentLogo} alt='Logo' className={`logo-main-box ${showLogo ? 'show' : ''}`} />
       </div>
       <main className='main'>
         <h2>{t('curriculo.titulo')}</h2>

@@ -23,6 +23,7 @@
     border-radius: 100px;
 }
 
+
 .contato,
 .contato * {
     font-family: 'Source Sans Pro', sans-serif;
@@ -97,5 +98,5 @@
         height: 60vh;
         width: 90vw;
     }
-    
+
 }

@@ -4,13 +4,22 @@ import React, { useEffect, useState } from 'react';
 import Button from '../components/Button.js';
 import { useTranslation } from 'react-i18next';
 import profileImage from '../components/images/Afonso-Ferreira.png';
-import logoImage from '../components/images/Logo Branca.png';
+import logoImagePt from '../components/images/Logo Branca.png';
+import logoImageEn from '../components/images/Logo Branca – Ingles.png';
+import logoImageIt from '../components/images/Logo Branca – Italiano.png';
 
 export const Home = () => {
     const [showLogo, setShowLogo] = useState(false);
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const expertise = t('home.especialidadesLista', { returnObjects: true });
     const highlights = t('home.destaquesLista', { returnObjects: true });
+    const currentLanguage = (i18n.resolvedLanguage || i18n.language || 'pt').split('-')[0];
+    const logoByLanguage = {
+        pt: logoImagePt,
+        en: logoImageEn,
+        it: logoImageIt
+    };
+    const logoImage = logoByLanguage[currentLanguage] || logoImagePt;
 
     useEffect(() => {
         const timer = setTimeout(() => {
