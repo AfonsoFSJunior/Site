@@ -3,7 +3,7 @@ import '../styles/Home.css';
 import React, { useEffect, useState } from 'react';
 import Button from '../components/Button.js';
 import { useTranslation } from 'react-i18next';
-import profileImage from '../components/images/Afonso-Ferreira.png';
+import profileImage from '../components/images/Afonso-Ferreira.jpg';
 import logoImagePt from '../components/images/Logo Branca.png';
 import logoImageEn from '../components/images/Logo Branca – Ingles.png';
 import logoImageIt from '../components/images/Logo Branca – Italiano.png';
