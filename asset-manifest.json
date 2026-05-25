@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.f650d119.css",
-    "main.js": "./static/js/main.3e87fe1c.js",
+    "main.js": "./static/js/main.890db2fb.js",
     "static/js/38.7b51576d.chunk.js": "./static/js/38.7b51576d.chunk.js",
     "static/media/Banner Afonso.png": "./static/media/Banner Afonso.c0b6a78d847a1c9e2d9b.png",
     "static/media/Afonso-Ferreira.jpg": "./static/media/Afonso-Ferreira.6dcf63a5e9c67939c810.jpg",
-    "static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.e622011064e44064bc2d.pdf",
-    "static/media/Curriculum_Vitae_Afonso_Ferreira-English.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-English.44ce7e40191f49fab81d.pdf",
-    "static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.201505a4bce99abe2f7d.pdf",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.eb56bf764328fbfe45e6.pdf",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-English.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-English.480cc7e382f2db6da31a.pdf",
+    "static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.870d3bcf9820cd6ccfc8.pdf",
     "static/media/Logo Branca – Italiano.png": "./static/media/Logo Branca – Italiano.87f4f912e79e29e1dbed.png",
     "static/media/Logo Branca.png": "./static/media/Logo Branca.eb23f729ade4f9d0571e.png",
     "static/media/Logo Branca – Ingles.png": "./static/media/Logo Branca – Ingles.4d61ae9735d8738f7b68.png",
     "index.html": "./index.html",
     "main.f650d119.css.map": "./static/css/main.f650d119.css.map",
-    "main.3e87fe1c.js.map": "./static/js/main.3e87fe1c.js.map",
+    "main.890db2fb.js.map": "./static/js/main.890db2fb.js.map",
     "38.7b51576d.chunk.js.map": "./static/js/38.7b51576d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f650d119.css",
-    "static/js/main.3e87fe1c.js"
+    "static/js/main.890db2fb.js"
   ]
 }
