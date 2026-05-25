@@ -12,7 +12,7 @@ function Footer() {
     <>
       <div className='footer-container'>
         <div className='social-medias'>
-          <a href='https://www.linkedin.com/in/afonso-junior-98646b182/' target="_blank" rel="noopener noreferrer" aria-label='LinkedIn'>
+          <a href='https://www.linkedin.com/in/afonso-ferreira-da-silva-junior/' target="_blank" rel="noopener noreferrer" aria-label='LinkedIn'>
             <i className="fab fa-linkedin"/>
           </a>
         </div>
