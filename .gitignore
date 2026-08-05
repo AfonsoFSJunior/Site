@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+**/node_modules/
 /.pnp
 .pnp.js
 
@@ -12,9 +13,10 @@ node_modules/
 /build
 
 # Cloudflare Workers
-workers/**/.wrangler/
-workers/**/.dev.vars
-workers/**/node_modules/
+.wrangler/
+**/.wrangler/
+.dev.vars
+**/.dev.vars
 
 # misc
 .DS_Store
