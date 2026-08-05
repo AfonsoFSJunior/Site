@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import App from './App';
 import './i18n';
+import './styles/animations.css';
+import './App.css';
 
 
 // ReactDOM.render(<App />, document.getElementById('root'));

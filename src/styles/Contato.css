@@ -1,125 +1,208 @@
 .contato-box {
-    width: auto;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../components/images/Banner\ Afonso.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 24px 100px;
+  background-color: #00303d;
+  overflow: hidden;
 }
 
-.contato {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    height: 60%;
-    width: 60%;
-    background-color: rgba(133, 133, 133, 0.6);
-    border: 1px solid transparent;
-    border-radius: 100px;
+.contato-box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url('../components/images/Banner Afonso.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-.contato,
-.contato * {
-    font-family: 'Source Sans Pro', sans-serif;
+.contato-box::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.38);
 }
 
-.contato form {
-    width: 75%;
-    position: relative;
+.contato-card {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 520px;
+  padding: 44px 40px;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.22),
+    0 0 0 1px rgba(0, 48, 61, 0.04);
 }
 
-.form-group {
-    font-size: 20px;
-    display: flex;
+.contato-card-mark {
+  display: block;
+  width: 56px;
+  height: auto;
+  margin: 0 auto 18px;
 }
 
-.form-group input {
-    align-self: center;
-    margin-left: auto;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 5px;
+.contato-card.reveal {
+  transition:
+    opacity 1s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.form-group-message {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
+.contato-card.reveal-up {
+  transform: translateY(20px);
 }
 
-.form-group-message textarea {
-    height: 100px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    resize: none;
-    padding: 5px;
+.contato-header {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
-.contato h1 {
-    margin: 20px;
-    color: #C7B279;
+.contato-header h1 {
+  margin: 0 0 10px;
+  color: #00303d;
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.85rem;
+  letter-spacing: 0.04em;
 }
 
-.form-group-button {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-items: center;
+.contato-subtitle {
+  margin: 0;
+  color: rgba(0, 48, 61, 0.62);
+  font-size: 1.05rem;
+  line-height: 1.5;
 }
 
-.form-group-button Button {
-    width: 100%;
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-bottom: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(0, 48, 61, 0.72);
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(0, 48, 61, 0.14);
+  border-radius: 10px;
+  background-color: #f7f8fa;
+  color: #00303d;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  transition:
+    border-color 0.35s ease,
+    background-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: rgba(0, 48, 61, 0.38);
+}
+
+.form-field input:hover,
+.form-field textarea:hover {
+  border-color: rgba(0, 48, 61, 0.28);
+  background-color: #ffffff;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: #00303d;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(199, 178, 121, 0.25);
+}
+
+.form-field textarea {
+  min-height: 132px;
+  resize: vertical;
+}
+
+.form-field--error input,
+.form-field--error textarea {
+  border-color: rgba(168, 50, 50, 0.55);
+  background-color: #fffafa;
 }
 
 .error-message {
-    color: #C7B279;
-    font-size: 0.9rem;
-    margin-top: 5px;
-  }
+  margin: 8px 0 0;
+  color: #a83232;
+  font-size: 0.88rem;
+}
 
-.form-group--honeypot {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+.form-submit .btn {
+  width: 100%;
+  border-radius: 10px;
+  padding: 14px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .form-status {
-    margin-top: 12px;
-    text-align: center;
-    font-size: 0.95rem;
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.45;
 }
 
 .form-status--success {
-    color: #e8f5e9;
+  background-color: rgba(0, 48, 61, 0.07);
+  color: #00303d;
+  border: 1px solid rgba(0, 48, 61, 0.12);
 }
 
 .form-status--error {
-    color: #ffcdd2;
+  background-color: rgba(168, 50, 50, 0.08);
+  color: #8b2e2e;
+  border: 1px solid rgba(168, 50, 50, 0.18);
+}
+
+.form-field--honeypot {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 960px) {
-    .form-group {
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-    }
+  .contato-box {
+    padding: 100px 20px 48px;
+  }
 
-    .contato{
-        height: 60vh;
-        width: 90vw;
-    }
-
+  .contato-card {
+    padding: 32px 24px;
+    border-radius: 16px;
+  }
 }

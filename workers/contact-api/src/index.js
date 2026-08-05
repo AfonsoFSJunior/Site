@@ -24,7 +24,6 @@ const COPY = {
       'Obrigado por entrar em contato pelo meu site. Sua mensagem chegou corretamente e eu retorno o mais breve possível.',
     autoNoteBefore:
       'Este é um e-mail automático de confirmação. Se precisar complementar alguma informação, envie uma nova mensagem pelo site ou escreva para',
-    quote: '“A advocacia preventiva é o melhor caminho para a segurança jurídica.”',
     regards: 'Atenciosamente,',
     role: 'Advogado · Direito do Trabalho, Civil e Empresarial · OAB/MG 57.178',
     cta: 'Visitar o site',
@@ -32,6 +31,7 @@ const COPY = {
     footerFrom: 'a partir de',
     noReply: 'Não responda a este e-mail.',
     subject: 'Recebi sua mensagem — Afonso Ferreira',
+    logoFile: 'logo-email-pt.png',
   },
   en: {
     label: 'Contact',
@@ -41,7 +41,6 @@ const COPY = {
       'Thank you for getting in touch through my website. Your message arrived successfully and I will get back to you as soon as possible.',
     autoNoteBefore:
       'This is an automatic confirmation email. If you need to add more information, please send a new message through the site or write to',
-    quote: '“Preventive legal counsel is the best path to legal certainty.”',
     regards: 'Best regards,',
     role: 'Attorney · Labor, Civil & Business Law · OAB/MG 57.178',
     cta: 'Visit the website',
@@ -49,6 +48,24 @@ const COPY = {
     footerFrom: 'from',
     noReply: 'Please do not reply to this email.',
     subject: 'I received your message — Afonso Ferreira',
+    logoFile: 'logo-email-en.png',
+  },
+  it: {
+    label: 'Contatto',
+    title: 'Ho ricevuto il suo messaggio',
+    greeting: (name) => `Buongiorno, ${name}!`,
+    thanks:
+      'Grazie per avermi contattato tramite il mio sito. Il messaggio è arrivato correttamente e risponderò al più presto.',
+    autoNoteBefore:
+      'Questa è un’e-mail automatica di conferma. Se desidera aggiungere informazioni, invii un nuovo messaggio dal sito oppure scriva a',
+    regards: 'Cordiali saluti,',
+    role: 'Avvocato · Diritto del Lavoro, Civile e Societario · OAB/MG 57.178',
+    cta: 'Visita il sito',
+    footerBefore: 'Inviata automaticamente da',
+    footerFrom: 'da',
+    noReply: 'Non rispondere a questa e-mail.',
+    subject: 'Ho ricevuto il suo messaggio — Afonso Ferreira',
+    logoFile: 'logo-email-it.png',
   },
 };
 
@@ -83,7 +100,9 @@ function escapeHtml(value) {
 
 function resolveLang(value) {
   const lang = String(value || '').toLowerCase();
-  return lang.startsWith('en') ? 'en' : 'pt';
+  if (lang.startsWith('en')) return 'en';
+  if (lang.startsWith('it')) return 'it';
+  return 'pt';
 }
 
 function hostFromUrl(siteUrl) {
@@ -142,13 +161,6 @@ function buildAutoReplyHtml({
                           <p style="margin:0 0 16px;font-size:16px;line-height:1.65;color:#ffffff;">${t.greeting(safeName)}</p>
                           <p style="margin:0 0 16px;font-size:16px;line-height:1.65;color:rgba(255,255,255,0.78);">${t.thanks}</p>
                           <p style="margin:0 0 28px;font-size:16px;line-height:1.65;color:rgba(255,255,255,0.78);">${t.autoNoteBefore} <a href="mailto:${escapeHtml(inboxEmail)}" style="color:${accent};text-decoration:underline;font-weight:700;">${escapeHtml(inboxEmail)}</a>.</p>
-                          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin:0 0 28px;">
-                            <tr>
-                              <td style="border-left:2px solid ${accent};padding:4px 0 4px 18px;">
-                                <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-style:italic;line-height:1.4;color:rgba(255,255,255,0.72);">${t.quote}</p>
-                              </td>
-                            </tr>
-                          </table>
                           <p style="margin:0 0 8px;font-size:16px;line-height:1.65;color:#ffffff;">${t.regards}<br /><strong style="font-family:Arial,Helvetica,sans-serif;letter-spacing:0.04em;">Afonso Ferreira da Silva Júnior</strong></p>
                           <p style="margin:0 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.55);">${t.role}</p>
                           <a href="${safeSiteUrl}" style="display:inline-block;background-color:${accent};color:${text};text-decoration:none;padding:14px 22px;border-radius:2px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;letter-spacing:0.04em;">${t.cta}</a>
@@ -254,11 +266,13 @@ export default {
     const templateId =
       lang === 'en'
         ? env.RESEND_AUTO_REPLY_TEMPLATE_ID_EN || env.RESEND_AUTO_REPLY_TEMPLATE_ID
-        : env.RESEND_AUTO_REPLY_TEMPLATE_ID;
+        : lang === 'it'
+          ? env.RESEND_AUTO_REPLY_TEMPLATE_ID_IT || env.RESEND_AUTO_REPLY_TEMPLATE_ID
+          : env.RESEND_AUTO_REPLY_TEMPLATE_ID;
     const siteUrl = env.SITE_URL || 'https://afonsoferreira.adv.br';
     const safeName = escapeHtml(name);
     const safeSiteUrl = escapeHtml(siteUrl);
-    const copy = COPY[lang];
+    const copy = COPY[lang] || COPY.pt;
     const inboxEmail = inboxLocalPart(inboxTo);
     const siteHost = hostFromUrl(siteUrl);
     const noReplyAddress = noReplyHint(fromNoReply);
@@ -267,9 +281,8 @@ export default {
       lang,
       safeName,
       safeSiteUrl,
-      // ?v= busts client caches after logo asset updates
-      logoUrl: `${safeSiteUrl}/logo-email.png?v=1`,
-      logoMarkUrl: `${safeSiteUrl}/logo-mark-email.png?v=1`,
+      logoUrl: `${safeSiteUrl}/${copy.logoFile}?v=2`,
+      logoMarkUrl: `${safeSiteUrl}/logo-mark-email.png?v=2`,
       inboxEmail,
       siteHost,
       noReplyAddress,

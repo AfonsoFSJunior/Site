@@ -24,16 +24,30 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
     display: flex;
     align-items: center;
-    width: 11%;
+    width: auto;
+    flex-shrink: 0;
     gap: 10px;
 }
 
+.navbar-logo-image {
+    display: block;
+    width: 42px;
+    height: auto;
+}
+
+.navbar-logo-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
 .navbar-logo:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-out;
+    transform: scale(1.05);
+    transition: all 0.35s ease-out;
 }
 
 .nav-menu {
@@ -77,48 +91,26 @@
     display: none;
 }
 
-/* Estilo geral para os seletores */
-.language-selector select,
-.language-selector-mobile select {
-    appearance: none;
-    padding: 5px 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    background-color: transparent;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.language-selector select:focus,
-.language-selector-mobile select:focus {
-    background-color: #00303d;
-}
-
-.language-selector select option,
-.language-selector-mobile select option {
-    background-color: #00303d;
-    color: #ffffff;
-}
-
 /* Mobile version oculta desktop selector */
-.desktop-only {
-    display: block;
-}
-
 .language-selector-mobile {
     display: none;
     text-align: center;
     margin-top: 1rem;
+    height: auto;
 }
 
 .navbar-logo-image {
-    width: 70%;
+    display: block;
+    width: 42px;
     height: auto;
 }
 
 .navbar-logo-text {
-    display: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .nav-hr {
@@ -212,13 +204,10 @@
     }
 
     .language-selector-mobile {
-        display: block;
-    }
-
-    .language-selector-mobile select {
-        font-size: 1.3rem;
-        padding: 10px 30px 10px 10px;
-        margin: 0 auto;
-        border: 1px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-bottom: 2rem;
     }
 }

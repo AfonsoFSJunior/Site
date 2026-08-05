@@ -8,6 +8,12 @@ jest.mock('react-i18next', () => ({
   }),
 }));
 
+jest.mock('../hooks/useScrollAnimation', () => ({
+  useReveal: () => ({ current: null }),
+}));
+
+jest.mock('../components/images/Logo AF Colorida.png', () => 'logo-mark-dark.png');
+
 jest.mock('../components/EmailButton.js', () => {
   return ({ children, type }) => (
     <button type={type}>

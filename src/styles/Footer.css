@@ -1,51 +1,84 @@
 .footer-container {
-    background-color: #00303d;
-    color: #ffffff;
-    height: 100px;
-    display: flex;
-    align-items: center;
+  background-color: #00303d;
+  color: #ffffff;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin-top: -1px;
+  padding: 12px 0;
 }
 
 .social-medias {
-    flex: 1;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-right: 2px solid #ffffff;
+  flex: 1;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 2px solid rgba(255, 255, 255, 0.35);
 }
 
 .social-medias a {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .social-medias a i {
-    font-size: 24px;
-    color: #766b65;
+  font-size: 24px;
+  color: #c7b279;
+  transition: color 0.25s ease;
+}
+
+.social-medias a:hover i {
+  color: #ffffff;
 }
 
 .copyright {
-    flex: 1;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    font-size: large;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  padding: 0 16px;
+}
+
+.copyright-line {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  line-height: 1;
+}
+
+.footer-wordmark {
+  display: block;
+  width: 120px;
+  height: auto;
+  opacity: 0.92;
 }
 
 @media screen and (max-width: 960px) {
-    .footer-container {
-        flex-direction:column;
-        height: 150px;
-    }
+  .footer-container {
+    flex-direction: column;
+    min-height: 140px;
+    padding: 20px 0;
+  }
 
-    .social-medias {
-        border-right: none;
-        margin-top: 10px;
-    }
+  .social-medias {
+    border-right: none;
+    margin-top: 10px;
+  }
 
-    .copyright{
-        font-size: medium;
-    }
+  .copyright {
+    font-size: medium;
+  }
+
+  .footer-wordmark {
+    width: 100px;
+  }
 }

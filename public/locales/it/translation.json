@@ -1,27 +1,36 @@
 {
   "home": {
     "nome": "Afonso Ferreira da Silva Junior",
+    "marca": "Afonso Ferreira",
     "cargo": "Avvocato",
-    "sobre": "SU DI ME",
+    "headline": "Lavoro · Civile · Societario",
+    "lead": "Avvocato con 34 anni di solida esperienza giuridica, con focus sulla consulenza preventiva e sul contenzioso.",
+    "sobre": "Su di me",
+    "sobreLabel": "Profilo",
+    "descricao": "Attivita legale con profondita tecnica e visione strategica.",
     "resumo": "Avvocato con 34 anni di solida esperienza giuridica, specializzato in diritto del lavoro, civile e societario.",
     "resumo2": "Opera dal 1992 con focus strategico sulla consulenza preventiva e sul contenzioso in tutte le istanze.",
+    "frase": "\"La tecnica sostiene la strategia — e la strategia protegge il cliente.\"",
     "especialidades": "Aree di attivita",
     "especialidadesLista": [
-      "Diritto del lavoro (sostanziale e processuale)",
+      "Diritto del lavoro",
       "Responsabilita civile",
       "Contratti",
       "Diritto societario",
-      "Contenzioso giudiziale e amministrativo"
+      "Contenzioso"
     ],
     "destaques": "Punti di forza",
+    "destaquesTitulo": "In evidenza",
     "destaquesLista": [
-      "Consulenza preventiva per persone fisiche e giuridiche",
-      "Attivita tecnica con agilita in contesti amministrativi e giudiziari",
-      "Esperienza in negoziazione, mediazione e pareri legali",
-      "Redazione giuridica strategica"
+      "Consulenza preventiva",
+      "Agilita tecnica",
+      "Negoziazione e mediazione",
+      "Redazione strategica"
     ],
-    "btnExperiencia": "Vedi esperienza professionale",
-    "btnTrabalhos": "Vedi esperienza professionale"
+    "interesses": "Consulenza preventiva per persone fisiche e giuridiche, con attivita tecnica in contesti amministrativi e giudiziari.",
+    "interesses2": "Esperienza consolidata in negoziazione, mediazione, pareri e redazione giuridica strategica.",
+    "btnExperiencia": "Vedi percorso",
+    "btnTrabalhos": "Vedi percorso"
   },
   "header": {
     "brand": "Afonso Ferreira",
@@ -30,7 +39,8 @@
     "formacao": "Formazione",
     "cursos": "Corsi e lingue",
     "curriculo": "Curriculum",
-    "contato": "Contatto"
+    "contato": "Contatto",
+    "idioma": "Lingua"
   },
   "footer": {
     "texto1": "Sviluppato da Henrique Rotsen",
@@ -172,6 +182,10 @@
   },
   "contato": {
     "titulo": "Contatto",
+    "subtitulo": "Invia un messaggio. Rispondo il prima possibile.",
+    "labelNome": "Nome",
+    "labelEmail": "Email",
+    "labelMensagem": "Messaggio",
     "dados": [
       {
         "label": "Telefono",

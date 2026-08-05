@@ -1,8 +1,9 @@
-import '../App.css';
 import '../styles/Contato.css';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import EmailButton from '../components/EmailButton.js';
+import logoMarkDark from '../components/images/Logo AF Colorida.png';
+import { useReveal } from '../hooks/useScrollAnimation';
 
 const CONTACT_API_URL =
   process.env.REACT_APP_CONTACT_API_URL ||
@@ -10,6 +11,7 @@ const CONTACT_API_URL =
 
 export const Contato = () => {
   const { t, i18n } = useTranslation();
+  const formRef = useReveal('up', 0, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -26,7 +28,7 @@ export const Contato = () => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
 
     if (errors[name]) {
@@ -59,6 +61,11 @@ export const Contato = () => {
     setIsSubmitting(true);
     setSubmissionStatus('');
 
+    const langCode = (i18n.resolvedLanguage || i18n.language || 'pt').toLowerCase();
+    let lang = 'pt';
+    if (langCode.startsWith('en')) lang = 'en';
+    else if (langCode.startsWith('it')) lang = 'it';
+
     try {
       const response = await fetch(CONTACT_API_URL, {
         method: 'POST',
@@ -68,7 +75,7 @@ export const Contato = () => {
           email: formData.email.trim(),
           message: formData.message.trim(),
           website: formData.website,
-          lang: i18n.language?.startsWith('en') ? 'en' : 'pt',
+          lang,
         }),
       });
 
@@ -96,10 +103,16 @@ export const Contato = () => {
 
   return (
     <div className="contato-box">
-      <div className='contato'>
-        <h1>{t('contato.titulo')}</h1>
-        <form onSubmit={handleSubmit} noValidate>
-          <div className="form-group">
+      <div className="contato-card" ref={formRef}>
+        <header className="contato-header">
+          <img src={logoMarkDark} alt="" className="contato-card-mark" />
+          <h1>{t('contato.titulo')}</h1>
+          <p className="contato-subtitle">{t('contato.subtitulo')}</p>
+        </header>
+
+        <form className="contato-form" onSubmit={handleSubmit} noValidate>
+          <div className={`form-field ${errors.name ? 'form-field--error' : ''}`}>
+            <label htmlFor="name">{t('contato.labelNome')}</label>
             <input
               type="text"
               id="name"
@@ -109,11 +122,12 @@ export const Contato = () => {
               onChange={handleChange}
               autoComplete="name"
               disabled={isSubmitting}
-              required
             />
             {errors.name && <p className="error-message">{errors.name}</p>}
           </div>
-          <div className="form-group">
+
+          <div className={`form-field ${errors.email ? 'form-field--error' : ''}`}>
+            <label htmlFor="email">{t('contato.labelEmail')}</label>
             <input
               type="email"
               id="email"
@@ -123,23 +137,25 @@ export const Contato = () => {
               onChange={handleChange}
               autoComplete="email"
               disabled={isSubmitting}
-              required
             />
             {errors.email && <p className="error-message">{errors.email}</p>}
           </div>
-          <div className="form-group-message">
+
+          <div className={`form-field ${errors.message ? 'form-field--error' : ''}`}>
+            <label htmlFor="message">{t('contato.labelMensagem')}</label>
             <textarea
               id="message"
               name="message"
               placeholder={t('contato.placeholderMensagem')}
               value={formData.message}
               onChange={handleChange}
+              rows={5}
               disabled={isSubmitting}
-              required
-            ></textarea>
+            />
             {errors.message && <p className="error-message">{errors.message}</p>}
           </div>
-          <div className="form-group form-group--honeypot" aria-hidden="true">
+
+          <div className="form-field form-field--honeypot" aria-hidden="true">
             <label htmlFor="website">Website</label>
             <input
               type="text"
@@ -151,11 +167,13 @@ export const Contato = () => {
               autoComplete="off"
             />
           </div>
-          <div className="form-group-button">
-            <EmailButton type="submit" className='btn-send' buttonStyle={'btn--primary'}>
+
+          <div className="form-submit">
+            <EmailButton type="submit" buttonStyle="btn--primary" buttonSize="btn--large">
               {isSubmitting ? t('contato.enviando') : t('contato.botao')}
             </EmailButton>
           </div>
+
           {submissionStatus && (
             <p className={`form-status ${isSuccess ? 'form-status--success' : 'form-status--error'}`}>
               {submissionStatus}

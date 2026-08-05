@@ -1,27 +1,36 @@
 {
   "home": {
     "nome": "Afonso Ferreira da Silva Junior",
+    "marca": "Afonso Ferreira",
     "cargo": "Attorney",
+    "headline": "Labor · Civil · Business",
+    "lead": "Attorney with 34 years of solid legal experience, focused on preventive advisory and litigation strategy.",
     "sobre": "About",
+    "sobreLabel": "Profile",
+    "descricao": "Legal practice with technical depth and strategic vision.",
     "resumo": "Attorney with 34 years of solid legal background, specialized in Labor, Civil, and Business Law.",
     "resumo2": "Active since 1992 with a strategic focus on preventive legal advisory and litigation across all court levels.",
+    "frase": "\"Technique sustains strategy — and strategy protects the client.\"",
     "especialidades": "Practice areas",
     "especialidadesLista": [
-      "Labor Law (substantive and procedural)",
+      "Labor Law",
       "Civil liability",
       "Contracts",
       "Corporate law",
-      "Judicial and administrative litigation"
+      "Litigation"
     ],
     "destaques": "Key strengths",
+    "destaquesTitulo": "In focus",
     "destaquesLista": [
-      "Preventive legal advisory for individuals and companies",
-      "Technical legal work with agility in administrative and judicial settings",
-      "Experience in negotiation, mediation, and legal opinions",
-      "Strategic legal drafting"
+      "Preventive advisory",
+      "Technical agility",
+      "Negotiation & mediation",
+      "Strategic drafting"
     ],
-    "btnExperiencia": "View professional experience",
-    "btnTrabalhos": "View professional experience"
+    "interesses": "Preventive legal advisory for individuals and companies, with technical work in administrative and judicial settings.",
+    "interesses2": "Proven experience in negotiation, mediation, legal opinions, and strategic legal drafting.",
+    "btnExperiencia": "View career",
+    "btnTrabalhos": "View career"
   },
   "header": {
     "brand": "Afonso Ferreira",
@@ -30,7 +39,8 @@
     "formacao": "Education",
     "cursos": "Courses and languages",
     "curriculo": "Resume",
-    "contato": "Contact"
+    "contato": "Contact",
+    "idioma": "Language"
   },
   "footer": {
     "texto1": "Developed by Henrique Rotsen",
@@ -172,6 +182,10 @@
   },
   "contato": {
     "titulo": "Contact",
+    "subtitulo": "Send a message. I will get back to you as soon as possible.",
+    "labelNome": "Name",
+    "labelEmail": "Email",
+    "labelMensagem": "Message",
     "dados": [
       {
         "label": "Phone",
