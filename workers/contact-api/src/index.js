@@ -1,6 +1,7 @@
 const ALLOWED_ORIGINS = [
   'https://afonsoferreira.adv.br',
   'https://www.afonsoferreira.adv.br',
+  'https://afonsofsjunior.github.io',
   'http://localhost:3000',
   'http://127.0.0.1:3000',
 ];
