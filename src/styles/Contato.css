@@ -31,6 +31,7 @@
 
 .contato form {
     width: 75%;
+    position: relative;
 }
 
 .form-group {
@@ -85,7 +86,29 @@
     font-size: 0.9rem;
     margin-top: 5px;
   }
-  
+
+.form-group--honeypot {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.form-status {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.form-status--success {
+    color: #e8f5e9;
+}
+
+.form-status--error {
+    color: #ffcdd2;
+}
 
 @media screen and (max-width: 960px) {
     .form-group {
