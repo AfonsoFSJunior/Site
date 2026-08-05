@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.dfa99ad1.css",
-    "main.js": "./static/js/main.be09d176.js",
+    "main.css": "./static/css/main.3ca82add.css",
+    "main.js": "./static/js/main.4247015d.js",
     "static/js/38.77876293.chunk.js": "./static/js/38.77876293.chunk.js",
     "static/media/Banner Afonso.png": "./static/media/Banner Afonso.c0b6a78d847a1c9e2d9b.png",
     "static/media/Afonso-Ferreira.jpg": "./static/media/Afonso-Ferreira.6dcf63a5e9c67939c810.jpg",
     "static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Italiano.f995e4efdc99ae7d0564.pdf",
     "static/media/Curriculum_Vitae_Afonso_Ferreira-English.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-English.b18897918125f9fa8ff3.pdf",
     "static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.pdf": "./static/media/Curriculum_Vitae_Afonso_Ferreira-Portugues.62aa9cb4cbbb8c9ef2be.pdf",
-    "static/media/Logo Branca – Italiano.png": "./static/media/Logo Branca – Italiano.87f4f912e79e29e1dbed.png",
     "static/media/Logo Branca.png": "./static/media/Logo Branca.eb23f729ade4f9d0571e.png",
-    "static/media/Logo Branca – Ingles.png": "./static/media/Logo Branca – Ingles.4d61ae9735d8738f7b68.png",
+    "static/media/Logo AF Colorida.png": "./static/media/Logo AF Colorida.534066254f1dee5737b6.png",
     "index.html": "./index.html",
-    "main.dfa99ad1.css.map": "./static/css/main.dfa99ad1.css.map",
-    "main.be09d176.js.map": "./static/js/main.be09d176.js.map",
+    "main.3ca82add.css.map": "./static/css/main.3ca82add.css.map",
+    "main.4247015d.js.map": "./static/js/main.4247015d.js.map",
     "38.77876293.chunk.js.map": "./static/js/38.77876293.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa99ad1.css",
-    "static/js/main.be09d176.js"
+    "static/css/main.3ca82add.css",
+    "static/js/main.4247015d.js"
   ]
 }

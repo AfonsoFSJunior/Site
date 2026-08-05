@@ -1,27 +1,36 @@
 {
   "home": {
     "nome": "Afonso Ferreira da Silva Júnior",
+    "marca": "Afonso Ferreira",
     "cargo": "Advogado",
+    "headline": "Trabalhista · Civil · Empresarial",
+    "lead": "Advogado com 34 anos de sólida trajetória jurídica, com foco estratégico em consultoria preventiva e advocacia contenciosa.",
     "sobre": "Sobre",
+    "sobreLabel": "Perfil",
+    "descricao": "Atuação jurídica com profundidade técnica e visão estratégica.",
     "resumo": "Advogado com 34 anos de sólida trajetória jurídica, especializado nas áreas Trabalhista, Civil e Empresarial.",
     "resumo2": "Atua desde 1992 com foco estratégico em consultoria preventiva e advocacia contenciosa em todas as instâncias.",
+    "frase": "\"A técnica sustenta a estratégia — e a estratégia protege o cliente.\"",
     "especialidades": "Áreas de atuação",
     "especialidadesLista": [
-      "Direito do Trabalho (material e processual)",
+      "Direito do Trabalho",
       "Responsabilidade civil",
       "Contratos",
       "Direito societário",
-      "Contencioso judicial e administrativo"
+      "Contencioso"
     ],
     "destaques": "Diferenciais",
+    "destaquesTitulo": "Em foco",
     "destaquesLista": [
-      "Consultoria preventiva para pessoas físicas e jurídicas",
-      "Atuação técnica com agilidade em cenários administrativos e judiciais",
-      "Experiência em negociação, mediação e pareceres",
-      "Redação jurídica estratégica"
+      "Consultoria preventiva",
+      "Agilidade técnica",
+      "Negociação e mediação",
+      "Redação estratégica"
     ],
-    "btnExperiencia": "Ver experiência profissional",
-    "btnTrabalhos": "Ver experiência profissional"
+    "interesses": "Consultoria preventiva para pessoas físicas e jurídicas, com atuação técnica em cenários administrativos e judiciais.",
+    "interesses2": "Experiência consolidada em negociação, mediação, pareceres e redação jurídica estratégica.",
+    "btnExperiencia": "Ver trajetória",
+    "btnTrabalhos": "Ver trajetória"
   },
   "header": {
     "brand": "Afonso Ferreira",
@@ -30,7 +39,8 @@
     "formacao": "Formação",
     "cursos": "Cursos e idiomas",
     "curriculo": "Currículo",
-    "contato": "Contato"
+    "contato": "Contato",
+    "idioma": "Idioma"
   },
   "footer": {
     "texto1": "Desenvolvido por Henrique Rotsen",
@@ -172,6 +182,10 @@
   },
   "contato": {
     "titulo": "Contato",
+    "subtitulo": "Envie uma mensagem. Retorno o mais breve possível.",
+    "labelNome": "Nome",
+    "labelEmail": "E-mail",
+    "labelMensagem": "Mensagem",
     "dados": [
       {
         "label": "Telefone",
