@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.3ca82add.css",
-    "main.js": "./static/js/main.4247015d.js",
+    "main.js": "./static/js/main.52857487.js",
     "static/js/38.77876293.chunk.js": "./static/js/38.77876293.chunk.js",
     "static/media/Banner Afonso.png": "./static/media/Banner Afonso.c0b6a78d847a1c9e2d9b.png",
     "static/media/Afonso-Ferreira.jpg": "./static/media/Afonso-Ferreira.6dcf63a5e9c67939c810.jpg",
@@ -12,11 +12,11 @@
     "static/media/Logo AF Colorida.png": "./static/media/Logo AF Colorida.534066254f1dee5737b6.png",
     "index.html": "./index.html",
     "main.3ca82add.css.map": "./static/css/main.3ca82add.css.map",
-    "main.4247015d.js.map": "./static/js/main.4247015d.js.map",
+    "main.52857487.js.map": "./static/js/main.52857487.js.map",
     "38.77876293.chunk.js.map": "./static/js/38.77876293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca82add.css",
-    "static/js/main.4247015d.js"
+    "static/js/main.52857487.js"
   ]
 }
