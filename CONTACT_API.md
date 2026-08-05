@@ -1,6 +1,6 @@
 # Contact API (Cloudflare Worker + Resend)
 
-Formulário do site → Cloudflare Worker (`workers/contact-api/`) → Resend.
+Formulário do site → Cloudflare Worker `contact-api-afonso` (`workers/contact-api/`) → Resend.
 
 1. E-mail de aviso para a inbox (`INBOX_TO`), com Reply-To = e-mail do visitante
 2. Auto-reply HTML para o visitante (PT/EN; gerado no Worker)
@@ -44,7 +44,7 @@ Deploy:
 npx wrangler deploy
 ```
 
-No Cloudflare, ligue o custom domain `contact-api.afonsoferreira.adv.br` ao Worker.
+No Cloudflare, ligue o custom domain `contact-api.afonsoferreira.adv.br` ao Worker **`contact-api-afonso`** (não ao antigo `contact-api`).
 
 ## Front
 

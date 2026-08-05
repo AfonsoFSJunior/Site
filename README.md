@@ -26,10 +26,11 @@ Resumo rápido:
 ```bash
 cd workers/contact-api
 npm install
+npx wrangler deploy   # cria/atualiza o Worker "contact-api-afonso"
 npx wrangler secret put RESEND_API_KEY
-# ajuste SITE_URL / FROM_NO_REPLY / INBOX_TO em wrangler.toml
-npx wrangler deploy
 ```
+
+No Cloudflare, ligue `contact-api.afonsoferreira.adv.br` ao Worker `contact-api-afonso`.
 
 No build/CI, `REACT_APP_CONTACT_API_URL` é `https://contact-api.afonsoferreira.adv.br`.
 
